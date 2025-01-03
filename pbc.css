@@ -10,6 +10,8 @@
             background-color: rgb(37, 37, 37);
             color: white;
             padding: 20px;
+            padding-left: 10%;
+            font-family: 'Times New Roman', Times, serif;
         }
         h1 {
             margin: 0;
@@ -47,7 +49,6 @@
             float: left;
             height: 220px;
             width: 200px;
-            font-family: sans-serif;
             padding-left: 12%;
         }
         .btnn{
@@ -55,10 +56,21 @@
             width: 150px;
             border-radius: 55px;
             font-size: larger;
+            font-family: 'poppins';
             background-color: #0c0c0c;
         }
         .btnn:hover{
             background-color: #838181;
             height: 170px;
             width: 170px;
+        }
+        .reel{
+            height: 500px;
+            width: 300px;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+        video{
+            height: 500px;
+            width: 300px;
         }

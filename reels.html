@@ -11,9 +11,44 @@
     
 </head>
 <body>
-    <p class="pa"><br><br><br>currently not available</p>
+    <header>PBC SHOTS</header>
+    <div>
+        <div class="reel">
+            <video class="myVideo" src="v1.mp4" muted loop controls></video>
+        </div>
+        <div class="reel">
+            <video class="myVideo" src="v2.mp4" autoplay muted loop controls></video>
+        </div>
+        <div class="reel">
+            <video class="myVideo" src="" autoplay muted loop controls></video>
+        </div>
+        <div class="reel">
+            <video class="myVideo" src="" autoplay muted loop controls></video>
+        </div>
+        <div class="reel">
+            <video class="myVideo" src="" autoplay muted loop controls></video>
+        </div>
+        <div class="reel">
+            <video class="myVideo" src="" autoplay muted loop controls></video>
+        </div>
+        <div class="reel">
+            <video class="myVideo" src="" autoplay muted loop controls></video>
+        </div>
+    </div>
     <footer>
         <p>&copy; 2025 Pious Brothers Community. <a class="clink" href="https://www.instagram.com/piousbrothers_community?igsh=MXZkeWoxOWF2cXdpNQ==">instagram</a></p>
     </footer>
+    <script>
+        const videos = document.querySelectorAll(".myVideo");
+      
+        videos.forEach(video => {
+          video.addEventListener("mouseover", () => {
+            video.muted = false;
+          });
+          video.addEventListener("mouseout", () => {
+            video.muted = true;
+          });
+        });
+      </script>
 </body>
 </html>
