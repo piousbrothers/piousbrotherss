@@ -85,3 +85,35 @@
             height: 500px;
             width: 300px;
         }
+        .playlist{
+            height: 230px;
+            width: 300px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .play{
+            height: 200px;
+            width: 300px;
+            background-color: #0c0c0c;
+            font-size: larger;
+            font-family: 'poppins';
+            border-radius: 20px;
+        }
+        .play:hover{
+            height: 210px;
+            width: 315px;
+        }
+        .yout{
+            height: 225px;
+            width: 400px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .yout1{
+            height: 225px;
+            width: 400px;
+            float: left;
+            border-radius: 10px;
+        }
