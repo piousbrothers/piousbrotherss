@@ -1,6 +1,5 @@
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
             color: #333;
             margin: 0;
             padding: 0;
@@ -47,13 +46,13 @@
         }
         .btnn1{
             float: left;
-            height: 220px;
-            width: 200px;
-            padding-left: 12%;
+            height: 180px;
+            width: 100px;
+            margin-left: 10%;
         }
         .btnn{
-            height: 150px;
-            width: 150px;
+            height: 100px;
+            width: 100px;
             border-radius: 55px;
             font-size: larger;
             font-family: 'poppins';
@@ -61,8 +60,8 @@
         }
         .btnn:hover{
             background-color: #838181;
-            height: 170px;
-            width: 170px;
+            height: 110px;
+            width: 110px;
         }
         .reel{
             height: 500px;
@@ -117,3 +116,4 @@
             float: left;
             border-radius: 10px;
         }
+        
