@@ -21,3 +21,7 @@ window.location.href = "reels.html";
 function prophet() {
     window.location.href = "prophet.html";
 }
+
+function qurhan(){
+    window.location.href ="qurhan.html";
+}
