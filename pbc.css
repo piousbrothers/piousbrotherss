@@ -6,7 +6,7 @@
             text-align: center;
         }
         header {
-            background-color: rgb(37, 37, 37);
+            background-color: #032c01;
             color: white;
             padding: 20px;
             font-family: 'Times New Roman', Times, serif;
@@ -24,10 +24,10 @@
             font-size: 1.5em;
             font-style: italic;
             margin: 20px 0;
-            color: #222222;
+            color: #0ef706;
         }
         footer {
-            background-color: rgb(37, 37, 37);
+            background-color:  #032c01;
             color: white;
             padding: 5px;
             position: fixed;
@@ -38,7 +38,7 @@
             color: #b6b4b4;
         }
         .pa{
-            font-family: unset;
+            font-family: cursive;
             font-style: unset;
         }
         .btnn2{
@@ -55,7 +55,7 @@
             width: 100px;
             border-radius: 55px;
             font-size: larger;
-            font-family: 'poppins';
+            font-family: cursive;
             background-color: #0c0c0c;
         }
         .btnn:hover{
