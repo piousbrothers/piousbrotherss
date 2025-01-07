@@ -9,7 +9,6 @@
             background-color: rgb(37, 37, 37);
             color: white;
             padding: 20px;
-            padding-left: 10%;
             font-family: 'Times New Roman', Times, serif;
         }
         h1 {
@@ -39,7 +38,8 @@
             color: #b6b4b4;
         }
         .pa{
-            margin-left: 25%;
+            font-family: unset;
+            font-style: unset;
         }
         .btnn2{
             width: 100%;
