@@ -6,7 +6,7 @@
             text-align: center;
         }
         header {
-            background: linear-gradient(rgb(2, 184, 11), #032c01);
+            background: linear-gradient(rgb(22, 116, 26), #032c01);
             color: white;
             padding: 20px;
             width: 100%;
@@ -28,7 +28,7 @@
             color: #397037;
         }
         footer {
-            background: linear-gradient(#032c01,rgb(2, 184, 11));
+            background: linear-gradient(#032c01,rgb(22, 116, 26));
             color: white;
             padding: 5px;
             position: fixed;
@@ -36,7 +36,7 @@
             width: 100%;
         }
         .clink{
-            color: #b6b4b4;
+            color: #6ca00c;
         }
         .btnn2{
             width: 100%;
