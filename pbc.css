@@ -39,26 +39,26 @@
             color: #6ca00c;
         }
         .btnn2{
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
         background-color: transparent;
         border-color: transparent;
         }
         .btnn1{
             float: left;
-            height: 180px;
-            width: 100px;
-            margin-left: 15%;
+            height: 100px;
+            width: 60px;
+            margin-left: 10%;
         }
         .btnn{
-            height: 80px;
-            width: 80px;
+            height: 50px;
+            width: 50px;
             border-radius: 55px;
         }
         .btnn:hover{
             background-color: #838181;
-            height: 110px;
-            width: 110px;
+            height: 60px;
+            width: 60px;
         }
         .reel{
             height: 500px;
@@ -116,4 +116,7 @@
         }
         .head{
             width: 100%;
+        }
+        .pa{
+            align-self: auto;
         }
