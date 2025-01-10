@@ -36,6 +36,8 @@
         }
         .clink{
             color: #6ca00c;
+            font-family: serif;
+            font-size: small;
         }
         .btnn2{
         height: 60px;
@@ -58,7 +60,6 @@
             border-radius: 55px;
         }
         .btnn:hover{
-            background-color: #838181;
             height: 60px;
             width: 60px;
         }
@@ -95,9 +96,10 @@
             width: 100%;
             background-color: transparent;
             border-color: transparent;
-            font-size: smaller;
-            font-family: 'poppins';
-            border-radius: 20px;
+            font-size: x-small;
+            font-family: serif;
+            color: #fff;
+            border-radius: 40px;
         }
         .play:hover{
             height: 110%;
@@ -143,4 +145,5 @@
             float: left;
             border-radius: 10px;
             padding-bottom: 20px;
+            margin-bottom: 50px;
         }
