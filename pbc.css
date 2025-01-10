@@ -16,8 +16,6 @@
             margin: 0;
         }
         .content {
-            margin: 20px;
-            padding: 20px;
             width: 100%;
             float: left;
         }
@@ -45,6 +43,7 @@
         border-color: transparent;
         font-family: serif;
         font-size: small;
+        color:#fff;
         }
         .btnn1{
             float: left;
@@ -121,4 +120,23 @@
         }
         .pa{
             align-self: auto;
+        }
+        .bg{
+            background-color: #285027;
+            margin-left: 4%;
+            margin-top: 100px;
+            width: 92%;
+            float: left;
+            color: #fff;
+            border-radius: 10px;
+            font-family: serif;
+        }
+        .line1{
+            margin-top: 10px;
+            padding-top: 20px;
+            margin-left: 4%;
+            width: 92%;
+            background-color: rgb(69, 155, 91);
+            float: left;
+            border-radius: 10px;
         }
