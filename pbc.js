@@ -32,3 +32,6 @@ function showNotification() {
       notification.classList.remove('show');
     }, 3000);
   }
+function goToNextPage5() {
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScA8ItnYPBohw6HoQzIMoBDxB2Nryz7y74mtRTQa9ejWU3nfg/viewform?usp=sharing";
+}
