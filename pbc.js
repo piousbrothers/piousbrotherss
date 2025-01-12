@@ -25,3 +25,10 @@ function prophet() {
 function qurhan(){
     window.location.href ="qurhan.html";
 }
+function showNotification() {
+    const notification = document.getElementById('notification');
+    notification.classList.add('show');
+    setTimeout(() => {
+      notification.classList.remove('show');
+    }, 3000);
+  }

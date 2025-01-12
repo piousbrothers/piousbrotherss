@@ -147,4 +147,34 @@
             border-radius: 10px;
             padding-bottom: 20px;
             margin-bottom: 50px;
+            box-shadow: 0 8px 5px rgba(8, 8, 8, 0.3);
         }
+        .notification {
+            display: none;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #4caf50;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+          }
+          .notification.show {
+            display: block;
+          }
+          .not{
+            height: 30px;
+            width: 30px;
+            background-color: transparent;
+            border-color: transparent;
+            right: 10%;
+            position: fixed;
+            bottom: 50px;
+          }
+          .not1{
+            height: 30px;
+            width: 30px;
+            border-radius: 25px;
+          }
