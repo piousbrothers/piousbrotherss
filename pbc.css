@@ -47,7 +47,6 @@
         border-color: transparent;
         font-family: serif;
         font-size: small;
-        color:#fff;
         }
         .btnn1{
             float: left;
@@ -173,10 +172,55 @@
             border-color: transparent;
             right: 10%;
             position: fixed;
+            bottom: 100px;
+          }
+          .not2{
+            height: 30px;
+            width: 30px;
+            background-color: transparent;
+            border-color: transparent;
+            right: 10%;
+            position: fixed;
             bottom: 50px;
           }
           .not1{
             height: 30px;
             width: 30px;
-            border-radius: 25px;
+            border-radius: 55px;
+          }
+          .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+          }
+          .popup-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            font-family: serif;
+          }
+          .pop{
+            margin-top: 10px;
+            padding: 10px 20px;
+            background:  rgb(69, 155, 91);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+          }
+      
+          .pop:hover{
+            background: #02682c;
           }
