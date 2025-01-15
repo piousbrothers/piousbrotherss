@@ -182,11 +182,13 @@
             right: 10%;
             position: fixed;
             bottom: 50px;
+            
           }
           .not1{
             height: 30px;
             width: 30px;
             border-radius: 55px;
+            box-shadow: 0 8px 5px rgba(8, 8, 8, 0.3);
           }
           .popup-overlay {
             position: fixed;
