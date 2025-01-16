@@ -25,6 +25,10 @@ function prophet() {
 function qurhan(){
     window.location.href ="qurhan.html";
 }
+
+function umarmoulavi() {
+  window.location.href = "umarmoulavi.html";
+}
 function showNotification() {
     const notification = document.getElementById('notification');
     notification.classList.add('show');

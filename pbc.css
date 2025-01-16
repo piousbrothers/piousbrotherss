@@ -85,27 +85,6 @@
             height: 500px;
             width: 300px;
         }
-        .playlist{
-            height: 20%;
-            width: 20%;
-            float: left;
-            margin-left: 10%;
-            margin-top: 20px;
-        }
-        .play{
-            height: 100%;
-            width: 100%;
-            background-color: transparent;
-            border-color: transparent;
-            font-size: x-small;
-            font-family: serif;
-            color: #fff;
-            border-radius: 40px;
-        }
-        .play:hover{
-            height: 110%;
-            width: 110%;
-        }
         .yout{
             height: 225px;
             width: 350px;
