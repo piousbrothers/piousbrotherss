@@ -57,3 +57,33 @@ function openPopup1() {
 function closePopup1() {
   document.getElementById('popup1').style.display = 'none';
 }
+let currentSlideIndex = 1;
+  showSlide(currentSlideIndex);
+
+function changeSlide(n) {
+  showSlide(currentSlideIndex += n);
+}
+
+function setSlide(n) {
+  showSlide(currentSlideIndex = n);
+}
+
+function showSlide(n)
+{
+  const slides = document.getElementsByClassName("slides");
+  const dots = document.getElementsByClassName("dot");
+      
+if (n > slides.length) currentSlideIndex = 1;
+  if (n < 1) currentSlideIndex = slides.length;
+      
+for (let i = 0; i < slides.length; i++) {
+  slides[i].style.display = "none";
+}
+      
+for (let i = 0; i < dots.length; i++) {
+  dots[i].className = dots[i].className.replace(" active", "");
+}
+      
+  slides[currentSlideIndex - 1].style.display = "block";
+  dots[currentSlideIndex - 1].className += " active";
+}
