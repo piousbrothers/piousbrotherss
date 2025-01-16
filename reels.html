@@ -11,20 +11,28 @@
     
 </head>
 <body>
-    <header class="fix">
-        <center>
-            PBC COLLECTIONS OF SHOTS
-        </center><br>
-        <a class="clink" href="index.html">HOME</a>
-        </header>
-    <div>
-        <center>
-        <p class="pa"><br><br><br><br><br><br><br><br>currently not available</p>
-        </center>
-        <div class="reel">
-
-        </div>
-    </div>
+        <div class="slideshow-container">
+            <div class="slides">
+              <video class="reel" src="z1.mp4" alt="Slide 1" autoplay loop controls></video>
+            </div>
+        
+            <div class="slides">
     
+            </div>
+        
+            <div class="slides">
+        
+            </div>
+        
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        
+          <div class="dots">
+            <span class="dot" onclick="setSlide(1)"></span>
+            <span class="dot" onclick="setSlide(2)"></span>
+            <span class="dot" onclick="setSlide(3)"></span>
+          </div>
+    <script src="pbc.js"></script>
 </body>
 </html>
