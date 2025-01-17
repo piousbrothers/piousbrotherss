@@ -208,6 +208,9 @@
             text-align: center;
             margin: auto;
             overflow: hidden;
+            background: linear-gradient(#075004,rgb(16, 185, 25));
+            margin-top: 20px;
+            border-radius: 20px;
           }
       
           .slides {
