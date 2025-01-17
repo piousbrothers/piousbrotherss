@@ -204,7 +204,7 @@
           .slideshow-container {
             position: relative;
             width: 340px;
-            height: 540px;
+            height: 560px;
             text-align: center;
             margin: auto;
             overflow: hidden;
@@ -270,4 +270,5 @@
             width: 240px;
             height: 480px;
             margin-top: 50px;
+            border-radius: 20px;
           }
