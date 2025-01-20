@@ -57,33 +57,34 @@ function openPopup1() {
 function closePopup1() {
   document.getElementById('popup1').style.display = 'none';
 }
-let currentSlideIndex = 1;
-  showSlide(currentSlideIndex);
 
-function changeSlide(n) {
-  showSlide(currentSlideIndex += n);
+const videoSlides = document.querySelectorAll('.video-slide');
+const prevButton = document.getElementById('prev-button');
+const nextButton = document.getElementById('next-button');
+let currentSlideIndex = 0;
+videoSlides[0].classList.add('active');
+videoSlides[0].querySelector('video').play();
+prevButton.addEventListener('click', () => {
+  pauseAllVideos();
+  currentSlideIndex = (currentSlideIndex - 1 + videoSlides.length) % videoSlides.length;
+  showCurrentSlide();
+});
+
+nextButton.addEventListener('click', () => {
+  pauseAllVideos();
+  currentSlideIndex = (currentSlideIndex + 1) % videoSlides.length;
+  showCurrentSlide();
+});
+function pauseAllVideos() {
+  videoSlides.forEach((slide) => {
+    slide.querySelector('video').pause();
+  });
 }
 
-function setSlide(n) {
-  showSlide(currentSlideIndex = n);
-}
-
-function showSlide(n)
-{
-  const slides = document.getElementsByClassName("slides");
-  const dots = document.getElementsByClassName("dot");
-      
-if (n > slides.length) currentSlideIndex = 1;
-  if (n < 1) currentSlideIndex = slides.length;
-      
-for (let i = 0; i < slides.length; i++) {
-  slides[i].style.display = "none";
-}
-      
-for (let i = 0; i < dots.length; i++) {
-  dots[i].className = dots[i].className.replace(" active", "");
-}
-      
-  slides[currentSlideIndex - 1].style.display = "block";
-  dots[currentSlideIndex - 1].className += " active";
+function showCurrentSlide() {
+  videoSlides.forEach((slide) => {
+    slide.classList.remove('active');
+  });
+  videoSlides[currentSlideIndex].classList.add('active');
+  videoSlides[currentSlideIndex].querySelector('video').play();
 }
