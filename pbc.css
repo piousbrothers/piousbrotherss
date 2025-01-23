@@ -231,3 +231,62 @@
             right: 0;
 
           }
+          .dq{
+            width: 100%;
+            float: left;
+            padding-left: 10%;
+            color: #fff;
+            font-family: serif;
+          }
+          .dm{
+            width: 30%;
+            float: left;
+          }
+          .dim{
+            width: 80%;
+            border-radius: 25px;
+            margin-top: 40%;
+          }
+          .line2{
+            margin-top: 10px;
+            padding-top: 20px;
+            margin-left: 4%;
+            width: 92%;
+            background-color: rgb(255, 145, 0);
+            float: left;
+            border-radius: 10px;
+            padding-bottom: 20px;
+            padding-right: 5%;
+            margin-bottom: 50px;
+            box-shadow: 0 8px 5px rgba(8, 8, 8, 0.3);
+        }
+        .line3{
+          margin-top: 10px;
+          padding-top: 20px;
+          margin-left: 4%;
+          width: 92%;
+          background-color: rgb(6, 80, 94);
+          float: left;
+          border-radius: 10px;
+          padding-bottom: 20px;
+          padding-right: 10%;
+          margin-bottom: 50px;
+          box-shadow: 0 8px 5px rgba(8, 8, 8, 0.3);
+      }
+      .line4{
+        margin-top: 10px;
+        padding-top: 20px;
+        margin-left: 4%;
+        width: 92%;
+        background-color: rgb(97, 4, 61);
+        float: left;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+        box-shadow: 0 8px 5px rgba(8, 8, 8, 0.3);
+    }
+    .pdf{
+      width: 90%;
+      height: 300px; 
+      border-radius: 20px;
+    }
