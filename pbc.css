@@ -235,8 +235,8 @@
             width: 100%;
             float: left;
             padding-left: 10%;
-            color: #fff;
             font-family: serif;
+            color: #fff;
           }
           .dm{
             width: 30%;
@@ -259,6 +259,7 @@
             padding-right: 5%;
             margin-bottom: 50px;
             box-shadow: 0 8px 5px rgba(8, 8, 8, 0.3);
+            font-family: serif;
         }
         .line3{
           margin-top: 10px;
@@ -284,9 +285,13 @@
         padding-bottom: 20px;
         margin-bottom: 50px;
         box-shadow: 0 8px 5px rgba(8, 8, 8, 0.3);
+        padding-right: 10%;
     }
     .pdf{
       width: 90%;
       height: 300px; 
       border-radius: 20px;
+    }
+    p{
+      font-family: serif;
     }
